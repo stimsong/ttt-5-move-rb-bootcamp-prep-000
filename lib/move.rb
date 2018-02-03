@@ -13,6 +13,6 @@ def input_to_index(user_input)
   converted_input = converted_input - 1
 end
 
-def move(board, players_move, players_character)
+def move(board, players_move, players_character=" ")
   display_board(board[players_move] = players_character)
 end
