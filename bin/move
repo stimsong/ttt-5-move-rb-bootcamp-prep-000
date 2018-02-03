@@ -12,4 +12,4 @@ input=gets.strip
 
 input_to_index(input)
 
-# move(board, converted_index, "X")
+ move(board, input, "X")
